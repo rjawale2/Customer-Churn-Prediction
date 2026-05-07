@@ -1,4 +1,6 @@
 # 📊 Customer Churn Prediction & Analytics Dashboard
+## Live Dashboard
+https://customer-churn-prediction-ff9qquisxsyczhwvms2jfz.streamlit.app/
 
 ## 🔍 Project Overview
 This project analyzes customer churn for a telecom company using 
