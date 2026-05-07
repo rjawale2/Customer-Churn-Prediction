@@ -11,8 +11,8 @@ st.set_page_config(
 
 # ---- LOAD DATA ----
 # We load the original CSV to get real label names back
-raw = pd.read_csv('WA_Fn-UseC_-Telco-Customer-Churn.csv')
-scored = pd.read_csv('churn_scored.csv')
+raw = pd.read_csv('dashboard/WA_Fn-UseC_-Telco-Customer-Churn.csv')
+scored = pd.read_csv('dashboard/churn_scored.csv')
 
 # Attach churn_probability and risk_tier from scored to raw
 raw['churn_probability'] = scored['churn_probability']
@@ -282,7 +282,7 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 
 # Load model
-with open('churn_model.pkl', 'rb') as f:
+with open('dashboard/churn_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 col1, col2, col3 = st.columns(3)
