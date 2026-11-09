@@ -48,4 +48,4 @@ streamlit run dashboard/app.py
 IBM Telco Customer Churn Dataset — 7,043 customers, 21 features
 
 ## 👤 Author
-Your Name Here
+Radha Jawale
